@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="com.entities.User" />
+		<mapping class="com.entities.Post" />
+		<mapping class="com.entities.Comment" />
+		<mapping class="com.entities.Tag" />
+		<mapping class="com.entities.Lookup" />
+	</session-factory>
+</hibernate-configuration>
